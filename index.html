@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type=text/css href="../drum-machine/styles/styles.css">
+  <script src="../drum-machine/script/myscript.js"></script>
+  <title>Drum Machine</title>
+</head>
+
+<body>
+
+  <img src="../drum-machine/images/logo.png" class="logo rounded mx-auto d-block" alt="...">
+
+<div id="drum-machine">
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-center text-center">
+      <div class="col-md-1"><button class="drum-pad" id="Duffy" onclick="play('Q')">Q
+        <audio class="clip" id="Q" src="../drum-machine/sounds/Duffy.wav"></audio>
+      </button></div>
+      <div class="col-md-1"><button class="drum-pad" id="Bugs" onclick="play('W')">W
+        <audio class="clip" id="W" src="../drum-machine/sounds/Bugs.wav"></audio>
+      </button></div>
+      <div class="col-md-1"><button class="drum-pad" id="Porky" onclick="play('E')">E
+        <audio class="clip" id="E" src="../drum-machine/sounds/Porky.wav" ></audio>
+      </button></div>
+    </div>
+
+    <div class="row d-flex justify-content-center text-center">
+      <div class="col-md-1"><button class="drum-pad" id="Sylvester" onclick="play('A'); reply_click() " >A
+        <audio class="clip" id="A" src="../drum-machine/sounds/Sylvester.wav" ></audio>
+      </button></div>
+      <div class="col-md-1"><button class="drum-pad" id="Taz" onclick="play('S')">S
+        <audio class="clip" id="S" src="../drum-machine/sounds/Taz.wav" ></audio>
+      </button></div>
+      <div class="col-md-1"><button class="drum-pad" id="Tweety" onclick="play('D')">D
+        <audio class="clip" id="D" src="../drum-machine/sounds/Tweety.wav" ></audio>
+      </button></div>
+    </div>
+
+    <div class="row d-flex justify-content-center text-center">
+      <div class="col-md-1"><button class="drum-pad" id="Yoseminte" onclick="play('Z')">Z
+        <audio class="clip" id="Z" src="../drum-machine/sounds/Yoseminte.wav" ></audio>
+      </button></div>
+      <div class="col-md-1"><button class="drum-pad" id="Marvin" onclick="play('X')">X
+        <audio class="clip" id="X" src="../drum-machine/sounds/Marvin.wav" ></audio>
+      </button></div>
+      <div class="col-md-1"><button class="drum-pad" id="Elmer" onclick="play('C')">C
+        <audio class="clip" id="C" src="../drum-machine/sounds/Elmer.wav" ></audio>
+      </button></div>
+    </div>
+
+  </div>
+
+  <div id="display">Bugs</div>
+</div>
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
