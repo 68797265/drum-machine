@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body {
+  background-image: url(../images/background.jpg);
+  font-family: "Bangers", cursive;
+}
+
+.logo {
+  width: 35vh;
+  padding-top: 60px;
+}
+
+.container-fluid {
+  padding-top: 10vh;
+}
+
+.col-md-1 {
+  padding-top: 30px;
+}
+
+button {
+  background-image: url(../images/background-pads.jpg);
+  background-color: #ffd147;
+  border-radius: 25%;
+  color: #ad1212;
+  border: none;
+  text-decoration: none;
+  height: 100px;
+  width: 100px;
+  padding: 0px;
+  font-size: 16px;
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 10px 10px 0px rgba(50, 50, 50, 0.5);
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#display {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 2.5vh;
+    text-align: center;
+    color: white;
+    letter-spacing: 1px;
+}
